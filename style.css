@@ -1,0 +1,64 @@
+body{
+	background-color: #4C5C61;
+}
+
+.winner
+{
+	color:green;
+}
+
+.pp
+{
+	size: 100px;
+	position: center;
+	margin-left: 500px;
+}
+
+.size
+{
+	font-size: 30px;
+}
+
+h1
+{
+	font-size: 100px;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 80px;
+	text-align: center;
+}
+
+.player1-win{
+	color: #900C3F ;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 80px;
+	animation: 1s drop;
+	display: none;
+
+}
+.player2-win{
+	color: #900C3F ;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 80px;
+	animation: 1s drop;
+	display: none;
+
+}
+@keyframes drop{
+	0%{
+		top:-100px;
+	}	
+
+	100%{
+		top:60%;
+	}
+}
